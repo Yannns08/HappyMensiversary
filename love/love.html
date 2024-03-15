@@ -9,9 +9,10 @@
     
 </head>
 <body>
-    <audio autoplay id="song1">
+    <audio id="song1">
         <source src="angelbabypart2.mp3"
-            preload="autoplay"type="audio/mp3"></audio>
+            preload="play">
+    </audio>
     
     <div class="wrapper">
         <!-- <img src="../thư love.png" alt=""> -->
@@ -124,7 +125,7 @@
 </script>
     
     <script>
-        Alert("klik 2× dimana aja,biar ada lagu") ;
+        Alert ("klik 2× dimana aja,biar ada lagu") ;
         window.addEventListener('click', () => {
     document.getElementById("song1").
         play();});
