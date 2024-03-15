@@ -122,9 +122,12 @@
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
 <script>
-    <script window.addEventListener('click', () => {
-    document.getElementById("song1").play();});</script>
-  
+    <script>
+        window.addEventListener('click', () => {
+    document.getElementById("song1").play();});
+</script>
+    
+  <script>
     $(window).on('load', function(event){
     $('body').removeClass('preloading');
     $('.loadingLove').delay(1000).fadeOut('fast');
