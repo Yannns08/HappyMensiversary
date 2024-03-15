@@ -13,7 +13,7 @@ var percentWidth = 0;
 var heartLeft = -3.2;
 var progressLoad = setInterval(progressInterva,100)
 
-window.addEventListener('click me!',() => {
+window.addEventListener('click', () => {
     document.getElementById("song1").
     play();
 });
