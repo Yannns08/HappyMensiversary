@@ -100,7 +100,7 @@ body{
     transform-origin: top left;
     padding-top: 5px;
     color: #fff;
-    font-size: 50px;
+    font-size: 25px;
     font-family: 'Dancing Script', cursive;
     animation: textHand 1.5s 6s forwards ease-in;
 }
